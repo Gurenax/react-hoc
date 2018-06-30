@@ -3,12 +3,12 @@ import React from 'react'
 /**
  * Presentation will be enhanced by recompose in Enhanced-Presentation
  */
-export default function Presentation({
+export const Presentation = ({
   title,
   message,
   toggleVisibility,
   isVisible
-}) {
+}) => {
   return (
     <div>
       <h1>{title}</h1>

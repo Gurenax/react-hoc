@@ -3,7 +3,7 @@ import React from 'react'
 /**
  * Presentation will be enhanced by recompose in Enhanced-Presentation
  */
-export const Presentation = ({
+const Presentation = ({
   title,
   message,
   toggleVisibility,
@@ -18,3 +18,5 @@ export const Presentation = ({
     </div>
   )
 }
+
+export default Presentation

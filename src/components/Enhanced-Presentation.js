@@ -12,6 +12,7 @@ export default compose(
       isVisible
     }) => {
       return (event) => {
+        // Optional: Can still do stuff before returning value inside toggleVis
         return toggleVis(!isVisible)
       }
     }

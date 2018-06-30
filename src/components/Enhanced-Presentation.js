@@ -2,7 +2,7 @@ import { compose, withState, withHandlers, withProps } from 'recompose'
 import Presentation from './Presentation'
 
 /**
- * Exmaple function using Recompose
+ * Enhanced-Presentation by Recompose
  */
 export default compose(
   withState('isVisible', 'toggleVis', false),

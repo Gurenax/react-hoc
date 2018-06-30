@@ -26,6 +26,7 @@ class App extends Component {
           <Sample />
         </h2>
         <hr/>
+        
         <div>
           <h1>Using Recompose</h1>
           <Presentation />

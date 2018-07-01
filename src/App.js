@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import './App.css'
 import Sample from './components/Sample'
 import Presentation from './components/Enhanced-Presentation'
+import Counter from './components/Enhanced-Counter'
 
 class App extends Component {
   render() {
@@ -26,10 +27,16 @@ class App extends Component {
           <Sample />
         </h2>
         <hr/>
-        
+
         <div>
           <h1>Using Recompose</h1>
           <Presentation />
+        </div>
+        <hr/>
+
+        <div>
+          <h1>Enhanced Counter using Recompose</h1>
+          <Counter />
         </div>
       </div>
     )
